@@ -75,4 +75,6 @@ sudo install -m 755 udpbroadcastrelay /usr/local/sbin/
 
 # Install WIFI_Ethernet Bridge.sh service
 
+curl -O https://raw.githubusercontent.com/gmtoomey/Proxmox_With_Wifi/refs/heads/main/proxmox-wifi-bridge.sh
+
 # Post installation tests

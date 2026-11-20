@@ -37,10 +37,33 @@ Realtek (rtw88 / rtw89 / rtl8xxxu driver )Chipsets like RTL8821CE, RTL8822CE, RT
 # Features
 #
 
-This installation does not use NAT so Proxmox and the VMs can use DHCP to obtain IP addresses. With no NAT the VMs operatte like a regular VM environment.
+This installation does not use NAT so Proxmox and the VMs can use DHCP to obtain IP addresses. With no NAT the VMs operate like a regular VM environment.
 
 There is also (optional) support for SAMBA. This allows a VM to install Samba and shares are visible to windows machines. This does not replace WSDD or WSDD2; they needed like any regular Samba installation.
 
 ## How it works
 
-A wifi adapter operates as a is a layer 2 device. 
+A wifi adapter operates as a is a layer 2 device. We
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Installation
+
+## Install Proxmox 
+9.2 and later
+
+## Optional SAMBA helpers
+
+# Install WIFI_Ethernet Bridge.sh service
+
+# Post installation tests

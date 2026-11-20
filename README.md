@@ -64,6 +64,15 @@ A wifi adapter operates as a is a layer 2 device. We
 
 ## Optional SAMBA helpers
 
+'''
+sudo apt install -y git build-essential
+git clone https://github.com/marjohn56/udpbroadcastrelay
+cd udpbroadcastrelay
+ls
+make || gcc -O2 -o udpbroadcastrelay udpbroadcastrelay.c
+sudo install -m 755 udpbroadcastrelay /usr/local/sbin/
+'''
+
 # Install WIFI_Ethernet Bridge.sh service
 
 # Post installation tests
